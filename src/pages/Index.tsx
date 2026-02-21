@@ -37,7 +37,7 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Grid Maze AI Explorer - Interactive Pathfinding Visualization</title>
+        <title>Optimal Path Exploration System</title>
         <meta 
           name="description" 
           content="Learn AI pathfinding algorithms through an interactive maze game. Play as human or watch A* and Backtracking algorithms solve mazes step-by-step." 
@@ -51,7 +51,7 @@ const Index = () => {
             <div className="flex items-center justify-center gap-3 mb-2">
               <Brain className="w-10 h-10 text-primary" />
               <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-                Grid Maze AI Explorer
+                Optimal Path Exploration System
               </h1>
               <Gamepad2 className="w-10 h-10 text-accent" />
             </div>
